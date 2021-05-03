@@ -23,7 +23,7 @@ Step 6: Test Your Algorithm on points discussed in Problem Statement
 All required files are in this git repo. Unfortunately, the model_transfer.pt could not be uploaded as it was too large. The VGG-16 model in Step 3: Create a CNN to Classify Dog Breeds (from Scratch) provided an accuracy of 14%. In Step 4: Create a CNN to Classify Dog Breeds (using Transfer Learning), I decided to use a pre-trained ResNet-50 model. After training (using 75 epochs) and testing the model, it had a test loss of 0.383980 and a test accuracy of 89% (746/836). Having a relatively low test loss and high accuracy score, this was the chosen model. 
 
 
-A sample output when a human was supplied as an image from the jupyter notebook:
+A sample output when a human, dog, and bear were supplied as an image from the jupyter notebook:
 
 ![Sample Output of Human](https://user-images.githubusercontent.com/63424518/116828307-d9459b00-ab6b-11eb-8236-0399f138b67f.png)
 ![image](https://user-images.githubusercontent.com/63424518/116828713-65f15880-ab6e-11eb-8075-0f7b25e918fd.png)
@@ -37,8 +37,12 @@ A sample output when a human was supplied as an image from the jupyter notebook:
 * pip install -r requirements.txt (install required modules if starting a new session)
 * python api.py (run web application)
 
-A sample output when a human was supplied as an image on the web app:
+A sample output when a human, dog, and bear were supplied as an image on the web app:
 <img width="1170" alt="Sample Output of Dog (web app)" src="https://user-images.githubusercontent.com/63424518/116828276-9be10d80-ab6b-11eb-9c5b-c0e12fde8e79.png">
+
+![image](https://user-images.githubusercontent.com/63424518/116898703-b61afa00-ac04-11eb-92ea-d21cc8d30236.png)
+![image](https://user-images.githubusercontent.com/63424518/116898741-c16e2580-ac04-11eb-82ca-6d2961f3fcb1.png)
+
 
 #### Conclusion
 The project model needed to be at least 60% accurate, and I was able to achieve a model with 89% accuracy. I deployed the model to the web app and had a lot of fun doing so and testing it! If you would like to know more about the project, please review Final Report where I elaborate on what I did and why. Overall, I think this capstone project exceeded my learning expectations and further deepended my understanding on Machine Learning. Thank you Udacity for allowing me to take this course!
